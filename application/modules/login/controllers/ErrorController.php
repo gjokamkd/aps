@@ -1,6 +1,6 @@
 <?php
 
-class ErrorController extends Zend_Controller_Action
+class Login_ErrorController extends Zend_Controller_Action
 {
 
     public function errorAction()
@@ -52,7 +52,8 @@ class ErrorController extends Zend_Controller_Action
         $log = $bootstrap->getResource('Log');
         return $log;
     }
-
-
+    
 }
+
+
 
